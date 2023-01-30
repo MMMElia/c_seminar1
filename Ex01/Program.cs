@@ -4,5 +4,5 @@ int a =int.Parse(Console.ReadLine());
 
 int b=a*a;
 
-Console.Write("Квадрат равен: ");
-Console.Write(b);
+Console.Write($"Квадрат равен: {b}");
+
