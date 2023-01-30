@@ -2,7 +2,7 @@
 Console.Write("Введите число:  ");
 int number =int.Parse(Console.ReadLine());
 
-if (number<99 || number>999) {Console.Write("Вы вели неверное число. Введите трехзначное число  ");
+if (number<100 || number>999) {Console.Write("Вы вели неверное число. Введите трехзначное число  ");
    number =int.Parse(Console.ReadLine());
 }
 
